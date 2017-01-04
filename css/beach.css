@@ -1,0 +1,57 @@
+@charset "utf-8";
+.beach_wrap{margin-top: 100px;
+position: relative;}
+
+.beach_wrap li{float: left;padding: 10px 10px;margin: 60px 0px 0px 20px;border: 1px solid #fff;width: 30%;}
+.beach_wrap li:hover img{border: 2px solid #dc3d6c;}
+
+.beach_wrap .li_sec img{border-radius: 3px; border: 2px solid #fff;}
+.beach_wrap .li_sec {position: 	relative;}
+.beach_wrap .li_sec .li_sec_tit_wrap{width: 100%; background: rgba(255,255,255,0.6);
+					padding: 7px 40px 3px; position: absolute;	bottom:0;left:0; font-weight:bold; margin-bottom: 17px;}
+.beach_wrap .li_sec .li_sec_tit_wrap p{font-size: 18px; text-align:center; color: #333; font-weight: bold; letter-spacing: -0.12em;}
+.beach_wrap .li_sec .li_sec_tit_wrap p span{font-size: 15px;}
+.beach_wrap .b_btn_1{ border-bottom: 1px solid #00529c;}
+.beach_wrap button{ width: 33.3%; padding: 10px 0; border: 1px solid #00529c; color: #525252; border-bottom: none;
+					background-color: #fff; font-weight: bold; font-size: 14px;}
+.b_btn_1 button.on{border-bottom: none; background-color:#00529c; color: #fff;}
+.b_btn_2 button{position: absolute; top:0; left: 33.3%; border-left: none;}
+.b_btn_2 button.on{position: absolute; top:0; left: 33.3%; background-color:#00529c; color: #fff; }
+.b_btn_3 button{position: absolute; top:0; left: 66.6%; border-left: none;}
+.b_btn_3 button.on{position: absolute; top:0; left: 66.6%; background-color:#00529c; color: #fff;}
+
+
+.beach_wrap h4 + div{display: none;}
+.beach_wrap .b_btn_1 + div{display: block;}
+
+.paging{margin-top: 70px;}
+
+@media (max-width: 1025px) {
+	.beach_wrap li{width: 40%;margin-left: 40px;}
+	.beach_wrap li .sec_left p:first-child{width: 140px;}
+}
+@media(max-width:800px){
+	.beach_wrap button{width: 33.3%; font-size: 15px; }
+	.b_btn_1 button.on{border-bottom: none; background-color:#00529c; color: #fff;}
+	.b_btn_2 button{position: absolute; top:0; left: 33.3%; border-left: none;}
+	.b_btn_2 button.on{position: absolute; top:0; left: 33.3%; background-color:#00529c; color: #fff; }
+	.b_btn_3 button{position: absolute; top:0; left: 66.6%; border-left: none;}
+	.b_btn_3 button.on{position: absolute; top:0; left: 66.6%; background-color:#00529c; color: #fff;}
+}
+@media (max-width:610px) {
+	.beach_wrap .li_sec .li_sec_tit_wrap p{font-size: 16px;}
+	.beach_wrap .li_sec .li_sec_tit_wrap p span{font-size: 13px;}
+
+}
+
+@media (max-width:568px) {
+	.beach_wrap li{width: 100%;margin-left: 0; background: none;}
+	.beach_wrap button{ width: 33.3%; font-size: 13px;}
+	.beach_wrap .li_sec .li_sec_tit_wrap p{font-size: 25px;}
+	.beach_wrap .li_sec .li_sec_tit_wrap p span{font-size: 22px;}
+	.b_btn_1 button.on{border-bottom: none; background-color:#00529c; color: #fff;}
+	.b_btn_2 button{position: absolute; top:0; left: 33.3%; border-left: none;}
+	.b_btn_2 button.on{position: absolute; top:0; left: 33.3%; background-color:#00529c; color: #fff; }
+	.b_btn_3 button{position: absolute; top:0; left: 66.6%; border-left: none;}
+	.b_btn_3 button.on{position: absolute; top:0; left: 66.6%; background-color:#00529c; color: #fff;}
+}

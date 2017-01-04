@@ -1,0 +1,60 @@
+
+#souvenir_s{width: 200px;height: 30px;font-size: 14px;padding-left: 40px;border-radius: 2px;
+	margin: 53px 10px 36px 0;}
+#souvenir_s option{font-size: 14px;}
+#souvenir_s+button{background: none;border: none;background: url(../images/common_sub/btn_enter.png) 0 0 no-repeat;
+width: 45px;height: 30px;text-indent: -9999px;margin-top: 17px;}
+
+.con_header{width: 100%;height: 267px;border-top: 2px solid #525252;border-bottom: 2px solid #525252;
+margin-bottom: 30px;} 
+.con_header:hover{border-top: 2px solid #ef4f7b;border-bottom: 2px solid #ef4f7b;}
+.image_1 img{width: 360px;margin: 10px 0px 0px 15px;}
+.image_1{float: left; border-right: 1px dotted #d1d1d1;width: 52%;}
+.product_name{width: 48%;height: 90px;}
+.award,.product_name,.winner{float: right;}
+.award>p:first-child,.product_name>p:first-child,.winner>p:first-child{font-size: 24px;
+padding-top: 10px;padding-left: 15px;background: url(../images/souvenir/sou_bar_1.png) 8px 16px no-repeat;}
+.award>p:last-child,.product_name>p:last-child,.winner>p:last-child{font-size: 18px;
+margin-top: 10px;margin-left: 32px;}
+.award{width: 48%;height: 77px;border-bottom: 1px dotted #d1d1d1;}
+.award>p:first-child{margin-bottom: -7px;}
+.award>p:last-child{margin-left: 32px;}
+
+.winner{width: 48%;height: 93px;}
+
+.con_body{width: 100%;}
+
+.section{width: 47%; float: left;padding-bottom: 30px;border: 3px solid #fff;    margin: 0 15px 15px 0;}
+.section h3{background: url(../images/souvenir/sou_bar_2.png) 2px 4px no-repeat;padding-left: 10px;}
+.section:hover{border: 3px solid #ef4f7b;}
+.img_sec{width: 48%;float: left;}
+.top_name{font-size: 18px;margin-bottom: 10px;}
+
+.b_award>p:first-child,.b_product_name>p:first-child,.b_winner>p:first-child{
+  font-size: 16px;}
+.top_name,.b_award,.b_product_name,.b_winner{font-family: "fontello";}
+.b_award,.b_product_name,.b_winner{ font-size: 16px;width: 160px;float: right;margin-bottom: 10px;margin-right: 15px;
+background: url(../images/souvenir/sou_bar.png) 2px 4px no-repeat;padding-left: 10px;}
+
+
+
+@media (max-width:1025px) {
+  .award,.product_name,.winner{width: 45%;}
+  .img_sec{width: 80%;margin-left: 34px;}
+  .b_award,.b_product_name,.b_winner{float: left;margin-left: 34px;}
+}
+
+@media (max-width:568px) {
+  .con_header{height: 530px;}
+  .award,.product_name,.winner{float: left;border: none;margin-left: 18px;}
+  .award>p:first-child{margin: 0;}
+  .image_1{border: none;margin: 40px 0px 0px 15px;width: 50%;width: 96%;}
+  .image_1 img{margin: 0;width: 98%;}
+  .section{width: 100%;}
+  .img_sec{width: 97%%;}
+
+}
+
+@media (max-width:410px) {
+  .award,.product_name,.winner{width: 180px;}
+}
